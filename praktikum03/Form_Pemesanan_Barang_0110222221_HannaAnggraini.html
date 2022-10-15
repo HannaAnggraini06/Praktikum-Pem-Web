@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Pemesanan Barang</title>
+    </head>
+    <body style="font-family: Calibri; background-color: lightgray;">
+        <fieldset>
+            <table>
+                <thead>
+                    <tr>
+                        <td width="20%">Home |</td>
+                        <td width="20%">Generated Link |</td>
+                        <td width="40%">Transaction History |</td>
+                        <td width="20%">Policy |</td>
+                        <td>Logout</td>
+                    </tr>
+                </thead>
+            </table>
+        </fieldset>
+
+        <form style="float: left;">
+        <table>
+            <tbody>
+             <tr>
+                 <td style="display: flex; align-items: center">
+                     <img width="80" src="mackbook2.jpg" style="display: flex; align-items: center" alt=""/>
+                 </td>
+                 <tr>
+                 <td><input type="file" name="photo"></td>
+                 </tr>
+            </tbody>
+        </table>
+        </form>
+            <form style="float: right; width: 80%; font-family: cursive;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td><label for="name">Title Here</label></td>
+                                <td>: <input type="text" id="Name"></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><label for="Descrption">Descrption</label></td>
+                                <td>: <textarea id="Descrption" cols="40" rows="3"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Account Number">Account Number</label></td>
+                                <td>: <input type="text" id="Number"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Bank">Bank</label></td>
+                                <td>: <input type="text" list="Bank" name="Bank"></td>
+                                <datalist id="Bank">
+                                    <option value="BCA">
+                                    <option value="BRI">
+                                    <option value="MANDIRI">
+                                </datalist>
+                            </tr>
+                            <tr>
+                                <td><label for="Account Holder">Account Holder</label></td>
+                                <td>: <input type="text" id="Account Holder"></td>
+                            </tr>
+                            <tr>
+                                <td><label form="count">Transaction</label></td>
+                                <td>: <input type="number" id="Number" name="How many pizza" min="1" max="6"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td colspan="2">*if the transaction is for 3 person, choose 3 from the drop-down list</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td colspan="1"><input type="checkbox" id="Mobile Phone" name="Send to" value="Mobile Phone" checked></td>
+                                <td width="40%"><label for="Mobile Phone">Send to Mobile Phone</label></td><br>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td colspan="1"><input type="checkbox" id="Email" name="Send to" value="Email" checked></td>
+                                <td width="40%"><label for="Email">Send to Email</label></td><br>
+                            </tr>
+                            <tr>
+                                <td><label for="Mobile Phone">Send to Mobile Phone</label></td>
+                                <td>: <input type="text" id="Mobile Phone"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Email">Send to Email</label></td>
+                                <td>: <input type="text" id="Email"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><button type="submit" style="background-color: green; font-family: courier new; font-size: medium; color: white;">Generate Nabr Link</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </form>
+    </body>
+</html>
