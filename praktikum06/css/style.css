@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+img {
+    width: 20%;
+}
+.header {
+    background-color: lightsalmon;
+    text-align: center;
+}
+.header h1 {
+    color: blue;
+}
+.header p {
+    display: inline-block;
+    background-color: bisque;
+}
+.header #soekarno {
+    color: black;
+    background-color: inherit;
+}
+.profil {
+    text-align: center;
+    padding: 50px;
+}
+.profil a {
+    padding: 50px 25px;
+    text-decoration: none;
+    color: maroon;
+}
+#biru {
+    color: blue;
+    font-size: xx-large;
+}
+.foto {
+    text-align: center;
+    margin: none;
+    background-color: white;
+}
+#garis {
+    text-decoration: line-through;
+    color: red;
+}
