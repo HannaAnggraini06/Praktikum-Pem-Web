@@ -1,0 +1,30 @@
+div {
+    display: inline-block;
+}
+img {
+    width: 80%;
+}
+.foto {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px 10px 30px 40px;
+}
+.foto2 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px 10px 30px 40px;
+}
+.foto3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px 10px 30px 40px;
+}
+.foto4 {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    margin: 10px 10px 30px 40px;
+}

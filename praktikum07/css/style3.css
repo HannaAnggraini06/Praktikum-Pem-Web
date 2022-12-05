@@ -1,0 +1,39 @@
+div {
+    display: inline-block;
+}
+.satu {
+    width: 150px;
+    height: 200px;
+    background-color: green;
+    margin: 10px 10px 30px 40px;
+}
+.dua {
+    width: 950px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px 10px 30px 40px;
+}
+.tiga {
+    width: 950px;
+    height: 200px;
+    background-color: black;
+    margin: 10px 10px 30px 40px;
+}
+.empat {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px 10px 30px 40px;
+}
+.lima {
+    width: 950px;
+    height: 200px;
+    background-color: red;
+    margin: 10px 10px 30px 40px;
+}
+.dua {
+    width: 950px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px 10px 30px 40px;
+}
